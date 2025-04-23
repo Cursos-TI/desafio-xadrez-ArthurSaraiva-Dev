@@ -8,8 +8,8 @@ int main() {
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
     printf("*** BISPO ***\n");
     while (bispo <= 5){
-        printf("Direita\n");
         printf("Cima\n");
+        printf("Direita\n");
         bispo++;
     }
     
