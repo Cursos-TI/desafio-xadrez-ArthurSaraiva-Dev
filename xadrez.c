@@ -28,6 +28,7 @@ int main() {
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
     printf("*** RAINHA ***\n");
+    // Lógica de movimentação:
     for (rainha = 1; rainha <= 8; rainha++){
         printf("Esquerda\n");
     }
@@ -35,6 +36,19 @@ int main() {
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
+    printf("*** CAVALO ***\n");
+    // Movimentação utilizando o for
+    int movE = 1; // Controta a movimentação em L para a esquerda.
+    int movB = 0; 
+    for(movE; movE == 1; movE--){
+        while (movB < 2)
+        {
+            printf("Cima\n");
+            movB++;
+        }
+        printf("Esquerda\n"); // Retorna a movimentação para a esquerda
+    }
+    
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
