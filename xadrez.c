@@ -43,7 +43,7 @@ int main() {
     for(movE; movE == 1; movE--){
         while (movB < 2)
         {
-            printf("Cima\n");
+            printf("Cima, ");
             movB++;
         }
         printf("Esquerda\n"); // Retorna a movimentação para a esquerda
